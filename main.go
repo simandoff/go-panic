@@ -27,8 +27,8 @@ func main() {
 	}()
 	go signalCheck()
 	// time.Sleep(1 * time.Second)
-	domemalloc()
 	// test()
+	domemalloc()
 }
 
 func signalCheck() {
